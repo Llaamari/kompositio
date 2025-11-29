@@ -1,10 +1,10 @@
 #include "Car.h"
+#include <iostream>
+#include <windows.h>
 
 // Pääohjelma luo Car-olion ja alustaa sen osat ennen tulostamista
 int main() {
-SetConsoleOutputCP(CP_UTF8);
-SetConsoleCP(CP_UTF8);
-
+SetConsoleOutputCP(65001);  // Asettaa UTF-8 tulostuksen konsoliin
 Car auto1("Toyota", "Corolla");
 
 
