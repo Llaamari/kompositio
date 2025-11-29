@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-
+// Mallintaa auton renkaan komponentin
 class Wheel {
 private:
 int size;

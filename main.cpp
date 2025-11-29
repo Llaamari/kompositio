@@ -1,6 +1,6 @@
 #include "Car.h"
 
-
+// Pääohjelma luo Car-olion ja alustaa sen osat ennen tulostamista
 int main() {
 Car auto1("Toyota", "Corolla");
 

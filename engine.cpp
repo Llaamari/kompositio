@@ -1,6 +1,6 @@
 #include "Engine.h"
 
-
+// Oletuskonstruktori alustaa arvot nollaksi
 Engine::Engine() : horsepower(0), displacement(0.0) {}
 
 

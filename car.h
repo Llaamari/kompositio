@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-
+// Koosteluokka (kompositio ◆) – omistaa Engine-olion ja 4 Wheel-oliota
 class Car {
 private:
 Engine objEngine;

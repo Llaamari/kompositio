@@ -1,4 +1,5 @@
 #ifndef ENGINE_H
+// Mallintaa moottorin komponentin – käytetään kompositiossa Car-luokassa
 #define ENGINE_H
 
 

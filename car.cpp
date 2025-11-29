@@ -7,13 +7,13 @@ Car::Car() : model("") , brand("") {}
 
 Car::Car(const string &br, const string &md) : brand(br), model(md) {}
 
-
+// Asettaa moottorin vakioarvot tehtävänannon mukaan
 void Car::setEngine() {
 objEngine.setHorsepower(150);
 objEngine.setDisplacement(2.0);
 }
 
-
+// Alustaa kaikki 4 rengasta vakioarvoilla (kesärenkaat, 17 tuumaa)
 void Car::setWheels() {
 objWheel1.setSize(17);
 objWheel1.setType("kesärengas");
